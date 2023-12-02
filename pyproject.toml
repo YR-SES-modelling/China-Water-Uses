@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "china-water-use"
-version = "0.2.4"
+version = "0.2.5"
 description = "处理中国用水数据"
 authors = ["SongshGeo <songshgeo@gmail.com>"]
 readme = "README.md"
@@ -9,10 +9,10 @@ include = ["src/data/*"]
 
 [tool.poetry.dependencies]
 python = ">3.8.1, <4"
-geopandas = "^0.12.2"
-pint-pandas = "^0.3"
-matplotlib = "^3.7.1"
-openpyxl = "^3.1.1"
+geopandas = "^0"
+pint-pandas = "^0"
+matplotlib = "^3"
+openpyxl = "^3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.1"
